@@ -1,8 +1,27 @@
 {
 	"components": {
 	    "nttdi-nowex-users-table": {
-	        "innerComponents": []
-	    }
+			"innerComponents": [],
+			"uiBuilder": {
+                "associatedTypes": [
+                    "global.core"
+                ],
+                "label": "NowEX Users Table",
+                "icon": "user-outline",
+                "description": "Show the list of users with pagination 10"
+            }
+		},
+		"nttdi-nowex-users-detail": {
+			"innerComponents": [],
+			"uiBuilder": {
+                "associatedTypes": [
+                    "global.core"
+                ],
+                "label": "NowEX Users detail",
+                "icon": "user-outline",
+                "description": "User detail"
+            }
+		}
 	},
 	"scopeName": "x_nttdi_nowex"
 }
