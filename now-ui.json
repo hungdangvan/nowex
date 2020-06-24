@@ -1,0 +1,8 @@
+{
+	"components": {
+	    "nttdi-nowex-users-table": {
+	        "innerComponents": []
+	    }
+	},
+	"scopeName": "x_nttdi_nowex"
+}
