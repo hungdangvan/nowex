@@ -1,6 +1,7 @@
 {
   "development": {
     "proxy": {
+      "origin": "https://nttdatademo2.service-now.com/",
       "proxies": ["/api"]
     }
   },
