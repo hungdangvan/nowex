@@ -2,7 +2,6 @@
   "development": {
     "proxy": {
       "origin": "https://nttdatademo2.service-now.com/",
-      "port": 3001,
       "proxies": ["/api"]
     }
   },
