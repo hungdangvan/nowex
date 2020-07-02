@@ -1,0 +1,30 @@
+$gray-color: #6b6b6b;
+.table-container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    overflow-x: scroll;
+    max-width: 100%;
+    table {
+        border: 1px solid $gray-color;
+        th {
+            background: $gray-color;
+            color: white;
+            padding: 10px;
+        }
+    }
+}
+
+.headers-group {
+    border: 1px solid $gray-color;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    .header-chosen {
+        width: 33%;
+        margin: 10px 0px;
+        display: inherit;
+        label {
+            margin-right: 10px;
+        }
+    }
+}
