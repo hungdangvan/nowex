@@ -6,7 +6,7 @@ import checklistActions from  './checklist_action';
 import rtlBehavior from '@servicenow/behavior-rtl';
 import {FILTER, CHECKLIST_UNLOAD} from '../constants';
 
-createCustomElement('nttdi-nowex-exam-checklist', {
+createCustomElement('nttdi-nowex-checklist', {
     renderer: {type: snabbdom},
 	view,
 	initialState: {
