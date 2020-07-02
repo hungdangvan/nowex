@@ -55,7 +55,7 @@ export default (state, { dispatch }) => {
                 </div>
                 <div role="rowgroup">
                     {filteredItems.map(item => (
-                        <nttdi-nowex-checklist-item
+                        <nttdi-nowex-checklist-item-abc
                             key={item.itemId}
                             itemId={item.itemId}
                             label={item.label}
